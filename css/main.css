@@ -233,7 +233,7 @@ address {
 
 .about {
   display: flex;
-  background-image: url("../../img/bg/web-bg-1.jpg");
+  background-image: url("../img/bg/web-bg-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 20px;
@@ -288,7 +288,7 @@ address {
 }
 
 .portfolio {
-  background-image: url("../../img/bg/web-bg-2.jpg");
+  background-image: url("../img/bg/web-bg-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
