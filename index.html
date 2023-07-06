@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/x-icon" href="./img/icons/package.ico" rel="shortcut icon"/>
+    <link type="Image/x-icon" href="./img/icons/package.ico" rel="icon" />
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&family=Open+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css"> <!-- Новый CSS -->
+</head>
+<body>
+    <!-- Header -->
+    <header class="header container">
+        <div class="logo">
+            <a class="logo__name-link link" href="">
+                <p class="logo__name">Serhii Petukhov</p>
+            </a>
+            <p class="logo__text">Front-end Developer</p>
+        </div>
+        <nav class="nav-link">
+            <ul class="nav-link__list list">
+                <li class="nav-link__item">
+                    <a 
+                    class="nav-link__item-link link" 
+                    href="https://banny-b.github.io/resume/" 
+                    target="_blank">Summary
+                    </a>
+                </li>
+                <li class="nav-link__item">
+                    <a 
+                    class=" nav-link__item-link link" 
+                    href="#portfolio">Portfolio
+                    </a>
+                </li>
+                <li class="nav-link__item">
+                    <a 
+                    class=" nav-link__item-link link" 
+                    href="#contacts">Contacts
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="contact list">
+            <li class="contact__item">
+                <a class="contact__link link" href="">
+                    <svg class="contact__icon" width="24" height="18">
+                        <use href="./img/icons/icons.svg#icon-envelope"></use>
+                    </svg>
+                    <span class="contact__link-item">example@mail.com</span>
+                </a>
+            </li>
+            <li class="contact__item">
+                <a class="contact__link link" href="">
+                    <svg class="contact__icon" width="22" height="20">
+                        <use href="./img/icons/icons.svg#icon-smartphone"></use>
+                    </svg>
+                    <span class="contact__link-item">+38 066 123 45 67</span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <!-- Main -->
+    <main class="main">
+        <!-- hero -->
+        <section class="hero container">
+            <ul class="hero__slider">
+                <li class="hero__item active">
+                    <p class="hero__item-text">The ability to think and drive forward</p>
+                </li>
+                <li class="hero__item">
+                    <p class="hero__item-text">create endless opportunities to learn more.</p>
+                </li>
+                <li class="hero__item">
+                    <p class="hero__item-text">The source of inspiration is in each of us!</p>
+                </li>
+            </ul>
+        </section>
+        <!-- About me -->
+        <section class="about container">
+            <img class="about__photo" src="./img/photo/my-photo.png" alt="my-photo">
+            <div class="about__me">
+                <h1 class="about__title">SERHII PETUKHOV</h1>
+                <p class="about__profession" id="about__profess">Front-end developer</p>
+                <p class="about__text">
+                In 2023, he completed IT courses from the <a href="https://goit.global/ua/" class="goit-link link" target="_blank">GoIT</a> school, 
+                mastered the BEM methodology, HTML, CSS (SASS), JavaScript (base), Mobile First strategy and CSS animation. In this presentation, 
+                a portfolio of my and team work.
+                </p>
+            </div>
+        </section>
+        <!-- Portfolio -->
+        <section class="portfolio container" id="portfolio">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <ul class="portfolio__list list">
+                <li class="portfolio__item">
+                    <a class="portfolio__link link" href="https://banny-b.github.io/banderogoose/" target="_blank">
+                        <div class="portfolio__img-overlay">
+                            <picture>
+                                <source srcset="" media="">
+                                <img class="portfolio__img" src="./img/portfolio/bandero-goose.jpg" alt="bandero-goose">
+                            </picture>
+                            <p class="overlay">A simple one page website using HTML and CSS.
+                                My first job, at the GoIT marathon. Desktop version only!
+                            </p>
+                        </div>
+                        <h3 class="potfolio__img-title">Bandero Goose</h3>
+                    </a>
+                </li>
+                <li class="portfolio__item">
+                    <a class="portfolio__link link" href="https://banny-b.github.io/goit-markup-hw-08/" target="_blank">
+                        <div class="portfolio__img-overlay">
+                            <picture>
+                                <source srcset="" media="">
+                                <img class="portfolio__img" src="./img/portfolio/web-studio.jpg" alt="web-studio">
+                            </picture>
+                            <p class="overlay">Two page site using HTML, CSS (SASS) and JS. 
+                                Work completed after completing the Front-end course. 
+                                The site is adapted for all gadgets.
+                            </p>
+                        </div>
+                        <h3 class="potfolio__img-title">Web Studio</h3>
+                    </a>
+                </li>
+                <li class="portfolio__item">
+                    <a class="portfolio__link link" href="https://banny-b.github.io/barbershop/" target="_blank">
+                        <div class="portfolio__img-overlay">
+                            <picture>
+                                <source srcset="" media="">
+                                <img class="portfolio__img" src="./img/portfolio/barber-shop.jpg" alt="barber-shop">
+                            </picture>
+                            <p class="overlay">Independent work, after completing the Front-end course. 
+                                In this work, HTML, CSS (SASS) and JS were used. 
+                                The site is adapted for all gadgets.
+                            </p>
+                        </div>
+                        <h3 class="potfolio__img-title">Barber Shop</h3>
+                    </a>
+                </li>
+                <li class="portfolio__item">
+                    <a class="portfolio__link link" href="https://banny-b.github.io/project-ice-cream/" target="_blank">
+                        <div class="portfolio__img-overlay">
+                            <picture>
+                                <source srcset="" media="">
+                                <img class="portfolio__img" src="./img/portfolio/ice-cream.jpg" alt="ice-cream">
+                            </picture>
+                            <p class="overlay">Teamwork using HTML, CSS (SASS), JS and Parcel. 
+                                The site is adapted for all gadgets.
+                            </p>
+                        </div>
+                        <h3 class="potfolio__img-title">Ice Cream</h3>
+                    </a>
+                </li>
+                <li class="portfolio__item">
+                    <a class="portfolio__link link" href="https://banny-b.github.io/filmoteka/" target="_blank">
+                        <div class="portfolio__img-overlay">
+                            <picture>
+                                <source srcset="" media="">
+                                <img class="portfolio__img" src="./img/portfolio/filmoteka.jpg" alt="filmoteka">
+                            </picture>
+                            <p class="overlay">Teamwork on Javascript, using HTML, CSS (SASS), JS. 
+                                The site is adapted for all gadgets.
+                            </p>
+                        </div>
+                        <h3 class="potfolio__img-title">Filmoteka</h3>
+                    </a>
+                </li>
+                <li class="portfolio__item">
+                    <a class="portfolio__link link" href="https://banny-b.github.io/auto-service/" target="_blank">
+                        <div class="portfolio__img-overlay">
+                            <picture>
+                                <source srcset="" media="">
+                                <img class="portfolio__img" src="./img/portfolio/auto-diag.jpg" alt="auto-diagnost">
+                            </picture>
+                            <p class="overlay">The layout of the site "Autodiagnostic", with the adaptation of 
+                                all gadgets.
+                            </p>
+                        </div>
+                        <h3 class="potfolio__img-title">Auto Diagnost</h3>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <!-- Footer -->
+    <section class="footer container">
+        <div class="footer-info">
+            <div class="footer__logo">
+                <a class="footer__logo-link link" href="index.html">
+                    <p class="footer__logo-name">Serhii Petukhov</p>
+                </a>
+                <p class="footer__logo-text">Front-end Developer</p>
+            </div>
+            <div class="footer__contact" id="contacts">
+                <h3 class="footer__contact-title">Contacts</h3>
+                <ul class="footer_contact-list list">
+                    <li class="footer_contact-item">Kharkiv, Ukraine</li>
+                    <li class="footer_contact-item">example@mail.com</li>
+                    <li class="footer_contact-item">+38 066 123 45 67</li>
+                </ul>
+            </div>
+            <div class="footer__social">
+                <h3 class="footer__social-title">Social media</h3>
+                <ul class="footer__social-list list">
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" href="">
+                            <img class="footer__social-icon" src="./img/icons/icon-linkedin.png" alt="icon-linkedin" width="30" height="30">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" href="">
+                            <img class="footer__social-icon" src="./img/icons/icon-github.png" alt="icon-github" width="30" height="30">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" href="">
+                            <img class="footer__social-icon" src="./img/icons/icon-upwork.png" alt="icon-upwork" width="32" height="32">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" href="">
+                            <img class="footer__social-icon" src="./img/icons/icon-djinni.png" alt="icon-djinni" width="30" height="30">
+                        </a>
+                    </li>
+                    <li class="footer__social-item">
+                        <a class="footer__social-link" href="">
+                            <img class="footer__social-icon" src="./img/icons/icon-telegram.png" alt="icon-telegram" width="30" height="30">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copyright">© 2023 Created by Serhii Petukhov</p>
+    </section>
+    <button onclick="scrollToTop()" id="btnScrollToTop">🡅</button> 
+    <script src="./js/heroSlider.js"></script>
+    <script src="./js/textPrint.js"></script>
+    <script src="./js/toTop.js"></script>
+</body>
+</html>
