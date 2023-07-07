@@ -148,7 +148,7 @@ address {
 }
 
 .contact__item:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 .contact__link {
@@ -447,14 +447,30 @@ address {
   margin-right: 10px;
 }
 
-.footer__social-icon {
-  transition: var(--function-transition);
-}
 .footer__social-icon:hover {
-  border: 2px solid var(--border-color);
-  border-radius: 50%;
+  animation: rotate 0.5s linear forwards;
 }
 
+.footer__social-icon:not(:hover) {
+  animation: rotate-back 0.5s linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes rotate-back {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 .footer-copyright {
   font-family: var(--primary-font);
   font-weight: 400;
