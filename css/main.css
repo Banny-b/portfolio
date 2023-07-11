@@ -418,7 +418,7 @@ address {
     opacity: 0;
   }
 }
-.footer_contact-item {
+.footer__contact-link {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 18px;
@@ -426,7 +426,7 @@ address {
   margin-bottom: 5px;
   transition: var(--function-transition);
 }
-.footer_contact-item:hover {
+.footer__contact-link:hover {
   color: var(--link-hover-color);
 }
 
