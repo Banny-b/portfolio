@@ -407,7 +407,7 @@ button {
     padding: 0 0 90px 0;
   }
   .about-inner {
-    text-align: center;
+    text-align: start;
   }
   .about-image__link {
     top: 502px;
