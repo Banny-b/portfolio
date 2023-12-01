@@ -1,9 +1,13 @@
 @import "./utils/base";
 @import "./utils/container";
-@import "./utils/var";
-@import "./components/header";
-@import "./components/hero";
-@import "./components/about";
-@import "./components/portfolio";
-@import "./components/footer";
-@import "./components/to-top";
+@import "./utils/variable";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/about";
+@import "./layouts/portfolio";
+@import "./layouts/contact";
+@import "./layouts/footer";
+
+@import "./components/mob-menu";
+@import "./components/modal";

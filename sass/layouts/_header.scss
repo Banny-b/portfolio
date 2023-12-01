@@ -1,0 +1,91 @@
+.wrapper {
+    max-width: 1202px;
+    margin: 20px auto;
+    border-radius: 30px;
+    border: 1px solid var(--primary-color);
+    background: rgba(255, 255, 255, 0.00);
+    box-shadow: 1px 4px 44px 0px var(--primary-color);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__list {
+        display: flex;
+    }
+    &__link {
+        display: block;
+        font-family: var(--accent-font);
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        color: var(--black);
+    }
+    // &__lang {
+    //     font-family: var(--accent-font);
+    //     font-size: 24px;
+    //     font-style: normal;
+    //     font-weight: 400;
+    //     line-height: normal;
+    //     letter-spacing: 2.4px;
+    //     color: var(--black);
+    //     border: none;
+    //     background: transparent;
+    //     cursor: pointer;
+    // }
+}
+
+// .lang {
+//     font-family: var(--accent-font);
+//     font-size: 24px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: normal;
+//     letter-spacing: 2.4px;
+//     color: var(--black);
+//     background-color: #E3E8F5;
+// }
+
+// For mobile
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .wrapper {
+        margin: 10px auto;
+    }
+    .header-inner {
+        padding: 20px;
+    }
+    .mob-menu__open {
+        border: none;
+        background: transparent;
+        fill: var(--button-color);
+    }
+}
+
+// For tablet
+@media only screen and (min-width: 768px)  and (max-width: 1199px) {
+    .header-inner {
+        padding: 30px 42px;
+        &__item:not(:last-child) {
+            margin-right: 25px;
+        }
+    }
+}
+
+// For Desktop
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .header-inner {
+        padding: 30px 72px;
+        &__item:not(:last-child) {
+            margin-right: 45px;
+        }
+        &__link {
+            transition: var(--func-transition);
+            &:hover {
+                color: var(--other-color);
+            }
+        }
+    }
+}
