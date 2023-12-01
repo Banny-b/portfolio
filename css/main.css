@@ -59,7 +59,7 @@ button {
     width: 768px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .container {
     width: 1200px;
   }
@@ -130,7 +130,7 @@ button {
     margin-right: 25px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .header-inner {
     padding: 30px 72px;
   }
@@ -289,7 +289,7 @@ button {
     height: 260px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .hero {
     padding: 130px 0 160px 0;
   }
@@ -507,7 +507,7 @@ button {
     left: 252px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .about {
     padding: 10px 0 100px 0;
   }
@@ -712,7 +712,7 @@ button {
     display: none;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .portfolio {
     position: relative;
     width: 1200px;
@@ -937,7 +937,7 @@ button {
     padding: 20px 40px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .contact {
     padding: 100px 0;
   }
@@ -1097,7 +1097,7 @@ button {
     letter-spacing: 0.12px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .footer {
     border-radius: 0 0 30px 30px;
     padding: 24px 0;
@@ -1339,7 +1339,7 @@ input::placeholder, textarea::placeholder {
     width: 338px;
   }
 }
-@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+@media only screen and (min-width: 1200px) and (max-width: 2560px) {
   .backdrop {
     padding-top: 60px;
   }
