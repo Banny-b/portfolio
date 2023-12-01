@@ -406,8 +406,11 @@ button {
   .about {
     padding: 0 0 90px 0;
   }
+  .about-inner {
+    text-align: center;
+  }
   .about-image__link {
-    top: 550px;
+    top: 502px;
     left: 82px;
     box-shadow: 0px 0px 88px 0px rgba(135, 143, 169, 0.5);
     padding: 16px 36px;
@@ -434,7 +437,7 @@ button {
   .about-info__text {
     font-size: 16px;
     letter-spacing: 0.16px;
-    max-width: 280px;
+    max-width: 299px;
     margin-bottom: 10px;
   }
   .about-info__text:nth-child(2) {
