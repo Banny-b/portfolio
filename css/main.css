@@ -436,7 +436,6 @@ button {
     letter-spacing: 0.16px;
     max-width: 280px;
     margin-bottom: 10px;
-    padding: 0 12px;
   }
   .about-info__text:nth-child(2) {
     margin-bottom: 30px;
@@ -858,7 +857,7 @@ button {
   }
   .contact-inner__info {
     margin-right: 0;
-    padding-left: 18px;
+    padding-left: 20px;
   }
   .contact-inner__title {
     font-size: 28px;
@@ -867,9 +866,9 @@ button {
   }
   .contact-inner__text {
     text-align: center;
-    font-size: 18px;
-    letter-spacing: 0.18px;
-    max-width: 280px;
+    font-size: 16px;
+    letter-spacing: 0.16px;
+    max-width: 266px;
   }
   .contact-inner__image {
     display: none;
