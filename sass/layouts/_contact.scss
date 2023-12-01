@@ -52,7 +52,6 @@
         box-shadow: 0px 0px 88px 0px rgba(135, 143, 169, 0.50);
         margin-right: auto;
         margin-left: auto;
-        padding: 20px 40px;
     }
 }
 
@@ -91,11 +90,14 @@
         &-inner__text {
             text-align: center;
             font-size: 18px;
-            letter-spacing: 0.20px;
+            letter-spacing: 0.18px;
             max-width: 280px;
         }
         &-inner__image {
             display: none;
+        }
+        &__link {
+            padding: 16px 36px;
         }
     }
 }
@@ -153,6 +155,9 @@
             border-radius: 16px;
             background: var(--button-color);
         }
+        &__link {
+            padding: 20px 40px;
+        }
     }
 }
 
@@ -209,6 +214,7 @@
             background: var(--button-color);
         }
         &__link {
+            padding: 20px 40px;
             transition: var(--func-transition);
             &:hover {
                 color: var(--white);
