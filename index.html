@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="image/x-icon" href="./img/portfolio-icon.png" rel="shortcut icon" />
     <link type="Image/x-icon" href="./img/portfolio-icon.png" rel="icon" />
-    <title>Portfolio</title>
+    <title class="lang" key="0">Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;700;900&family=Montserrat+Subrayada:wght@400;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
@@ -26,20 +26,18 @@
                 <nav class="header-inner__navigation">
                     <ul class="header-inner__list list">
                         <li class="header-inner__item">
-                            <a class="header-inner__link link" href="#about">About</a>
+                            <a class="header-inner__link link lang" href="#about" key="1">About</a>
                         </li>
                         <li class="header-inner__item">
-                            <a class="header-inner__link link" href="#project">Projects</a>
+                            <a class="header-inner__link link lang" href="#project" key="2">Projects</a>
                         </li>
                         <li class="header-inner__item">
-                            <a class="header-inner__link link" href="#footer">Contacts</a>
+                            <a class="header-inner__link link lang" href="#footer" key="3">Contacts</a>
                         </li>
                         <!-- <li class="header-inner__item">
-                            <select class="header-inner__lang" name="" id="">
-                                <option class="lang" value="">En</option>
-                                <option class="lang" value="">Ua</option>
-                                <option class="lang" value="">Ru</option>
-                            </select>
+                            <svg class="header-inner__earth-icon" width="25" height="25">
+                                <use href="./img/header/earth.svg#icon-world"></use>
+                            </svg>
                         </li> -->
                     </ul>
                 </nav>
@@ -60,9 +58,14 @@
                     </svg>
                 </button>
                 <ul class="mob-menu__list list">
-                    <li class="mob-menu__item"><a class="mob-menu__link link" href="#about">About</a></li>
-                    <li class="mob-menu__item"><a class="mob-menu__link link" href="#project">Projects</a></li>
-                    <li class="mob-menu__item"><a class="mob-menu__link link" href="#footer">Contacts</a></li>
+                    <li class="mob-menu__item"><a class="mob-menu__link link lang" href="#about" key="1">About</a></li>
+                    <li class="mob-menu__item"><a class="mob-menu__link link lang" href="#project" key="2">Projects</a></li>
+                    <li class="mob-menu__item"><a class="mob-menu__link link lang" href="#footer" key="3">Contacts</a></li>
+                    <!-- <li class="mob-menu__item">
+                        <svg class="mob-menu__earth-icon" width="25" height="25" style="fill: #686E80;">
+                            <use href="./img/header/earth.svg#icon-world"></use>
+                        </svg>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -278,11 +281,6 @@
                             <use href="./img/hero/sprite.svg#icon-github"></use>
                         </svg>
                     </a>
-                    <!-- <a class="footer__social-link link" href="" target="_blank">
-                        <svg class="footer__social-img" width="30" height="30">
-                            <use href="./img/hero/sprite.svg#icon-telegram"></use>
-                        </svg>
-                    </a> -->
                     <a class="footer__social-link link" href="https://www.upwork.com/freelancers/~01d1f8909dd1708353?viewMode=1" target="_blank">
                         <svg class="footer__social-img" width="30" height="30">
                             <use href="./img/hero/sprite.svg#icon-upwork"></use>
@@ -337,7 +335,8 @@
             </div>
         </div>
     </div>
-    <script src="./js/mob-menu.js"></script>
+    <script src="./js/mobMenu.js"></script>
+    <!-- <script src="./js/langSwitch.js"></script> -->
     <script src="./js/modal.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>

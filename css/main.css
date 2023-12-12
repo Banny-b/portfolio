@@ -102,7 +102,6 @@ button {
 .header-inner__link {
   display: block;
   font-family: var(--accent-font);
-  font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -130,6 +129,9 @@ button {
   .header-inner__item:not(:last-child) {
     margin-right: 25px;
   }
+  .header-inner__link {
+    font-size: 20px;
+  }
 }
 @media screen and (min-width: 1200px) and (max-width: 2560px) {
   .header-inner {
@@ -139,6 +141,7 @@ button {
     margin-right: 45px;
   }
   .header-inner__link {
+    font-size: 24px;
     transition: var(--func-transition);
   }
   .header-inner__link:hover {

@@ -17,37 +17,13 @@
     &__link {
         display: block;
         font-family: var(--accent-font);
-        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         letter-spacing: 2.4px;
         color: var(--black);
     }
-    // &__lang {
-    //     font-family: var(--accent-font);
-    //     font-size: 24px;
-    //     font-style: normal;
-    //     font-weight: 400;
-    //     line-height: normal;
-    //     letter-spacing: 2.4px;
-    //     color: var(--black);
-    //     border: none;
-    //     background: transparent;
-    //     cursor: pointer;
-    // }
 }
-
-// .lang {
-//     font-family: var(--accent-font);
-//     font-size: 24px;
-//     font-style: normal;
-//     font-weight: 400;
-//     line-height: normal;
-//     letter-spacing: 2.4px;
-//     color: var(--black);
-//     background-color: #E3E8F5;
-// }
 
 // For mobile
 @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -71,6 +47,13 @@
         &__item:not(:last-child) {
             margin-right: 25px;
         }
+        &__link {
+            font-size: 20px;
+        }
+        // &__earth-icon {
+        //     width: 20px;
+        //     height: 20px;
+        // }
     }
 }
 
@@ -82,6 +65,7 @@
             margin-right: 45px;
         }
         &__link {
+            font-size: 24px;
             transition: var(--func-transition);
             &:hover {
                 color: var(--other-color);
@@ -89,3 +73,16 @@
         }
     }
 }
+
+// Анимация иконки переключения языка
+// .header-inner__earth-icon {
+//     fill: var(--black);
+//     transition: var(--func-transition);
+//     cursor: pointer;
+//     &:hover {
+//         fill: var(--other-color);
+//     }
+//     &:active {
+//         transform: scale(0.8);
+//     }
+// }
