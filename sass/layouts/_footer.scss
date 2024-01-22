@@ -112,7 +112,7 @@
             padding: 0 0 0 72px;
             transition: var(--func-transition);
             &:hover {
-                transform: scale(1.07);
+                transform: translateY(-10px);
             }
         }
         &__contacts {

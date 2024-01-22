@@ -1087,7 +1087,7 @@ button {
     transition: var(--func-transition);
   }
   .footer__logo-link:hover {
-    transform: scale(1.07);
+    transform: translateY(-10px);
   }
   .footer__contacts {
     margin-bottom: 8px;
