@@ -518,7 +518,7 @@ button {
     background: var(--primary-color);
   }
   .about-image__link {
-    top: 270px;
+    top: 250px;
     left: 324px;
     box-shadow: 0px 0px 50px 0px rgba(128, 146, 191, 0.5);
     padding: 10px 24px;
