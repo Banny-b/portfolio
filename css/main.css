@@ -404,13 +404,13 @@ button {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .about {
-    padding: 0 0 90px 0;
+    padding: 0 0 100px 0;
   }
   .about-inner {
     text-align: start;
   }
   .about-image__link {
-    top: 378px;
+    top: 404px;
     left: 82px;
     box-shadow: 0px 0px 88px 0px rgba(135, 143, 169, 0.5);
     padding: 16px 36px;
@@ -441,12 +441,12 @@ button {
     margin-bottom: 10px;
   }
   .about-info__text:nth-child(2) {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .about {
-    padding: 0 0 130px 0;
+    padding: 0 0 180px 0;
   }
   .about-inner {
     align-items: flex-start;
