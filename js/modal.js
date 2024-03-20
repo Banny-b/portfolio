@@ -1,5 +1,5 @@
-// С алертом, что не бот!
-const openPopUp = document.querySelector('.about-info__link');
+// С алертом проверки, что не бот!
+const openPopUp = document.querySelector('.contact__link');
 const closePopUp = document.querySelector('.modal-close');
 const popUp = document.querySelector('.backdrop');
 
@@ -22,7 +22,7 @@ closePopUp.addEventListener('click', () => {
 
 
 // Вариант с алертом "Тест"
-// const openPopUp = document.querySelector('.about-info__link');
+// const openPopUp = document.querySelector('.contact__link');
 // const closePopUp = document.querySelector('.modal-close');
 // const popUp = document.querySelector('.backdrop');
 // const modalForm = document.querySelector('.modal-form');
@@ -62,7 +62,7 @@ closePopUp.addEventListener('click', () => {
 
 
 // Простой вариант через классы (querySelector())
-// const openPopUp = document.querySelector('.about-info__link');
+// const openPopUp = document.querySelector('.contact__link');
 // const closePopUp = document.querySelector('.modal-close');
 // const popUp = document.querySelector('.backdrop');
 

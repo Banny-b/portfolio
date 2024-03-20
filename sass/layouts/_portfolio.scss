@@ -170,7 +170,7 @@
         border: none;
         transition: var(--func-transition);
         &:hover {
-            transform: scale(1.08);
+            transform: scale(0.88);
         }
     }
     .arrow-next {
@@ -182,7 +182,7 @@
         border: none;
         transition: var(--func-transition);
         &:hover {
-            transform: scale(1.08);
+            transform: scale(0.88);
         }
     }
 }
