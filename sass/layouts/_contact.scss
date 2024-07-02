@@ -187,6 +187,19 @@
             position: absolute;
             top: -30px;
             left: 30px;
+            animation: pulsate 2s infinite;
+            transform-origin: center;
+        }
+        @keyframes pulsate {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
         }
         &-inner__bg {
             width: 300px;
