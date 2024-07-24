@@ -138,6 +138,9 @@
             left: 48px;
             width: 300px;
             height: 286px;
+            transform: translateX(100%) rotate(0deg); /* начальная позиция - за пределами правого края и без вращения */
+            animation: rollIn 2s 4s forwards; /* анимация выкатки */
+            opacity: 0; /* изначально скрыто */
         }
         &-image__blur {
             top: 65px;
@@ -187,8 +190,12 @@
         }
         &-image__photo {
             top: -90px;
+            left: 100%; /* начальная позиция - справа за пределами контейнера */
             width: 410px;
             height: 400px;
+            transform: translateX(100%) rotate(0deg); /* начальная позиция - за пределами правого края и без вращения */
+            animation: rollIn 2s 4s forwards; /* анимация выкатки */
+            opacity: 0; /* изначально скрыто */
         }
         &-image__blur {
             top: 80px;
@@ -214,4 +221,16 @@
     //         z-index: 5;
     //     }
     // }
+}
+
+// Анимация выкатывания изображения
+@keyframes rollIn {
+    0% {
+        transform: translateX(100%) rotate(0deg); /* начальная позиция и без вращения */
+        opacity: 0; /* скрыто в начале */
+    }
+    100% {
+        transform: translateX(0) rotate(-360deg); /* конечная позиция и вращение против часовой стрелки */
+        opacity: 1; /* полностью видно */
+    }
 }
