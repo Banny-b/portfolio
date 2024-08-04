@@ -93,19 +93,6 @@ button {
   position: relative;
 }
 
-.header {
-  background: var(--accent-color);
-  border-radius: 30px 30px 0 0;
-  z-index: 1500;
-  transition: 5s ease;
-}
-.header.sticky {
-  position: fixed;
-  top: 0;
-  border-radius: 0;
-  background: var(--translucent-accent-color);
-}
-
 .header-inner {
   display: flex;
   align-items: center;
@@ -255,7 +242,7 @@ button {
   }
   .hero-image__photo {
     top: -300px;
-    left: -270px;
+    left: -278px;
     width: 300px;
     height: 284px;
   }
@@ -297,7 +284,7 @@ button {
     margin-right: 20px;
   }
   .hero-image__photo {
-    top: -66px;
+    top: -58px;
     left: 48px;
     width: 300px;
     height: 286px;
@@ -1102,6 +1089,9 @@ button {
   .footer__logo-link {
     padding: 0 0 0 72px;
     transition: var(--func-transition);
+  }
+  .footer__logo-link:hover {
+    transform: translateY(-10px);
   }
   .footer__contacts {
     margin-bottom: 8px;

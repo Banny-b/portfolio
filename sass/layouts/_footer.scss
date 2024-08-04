@@ -111,9 +111,9 @@
         &__logo-link {
             padding: 0 0 0 72px;
             transition: var(--func-transition);
-            // &:hover {
-            //     transform: translateY(-10px);
-            // }
+            &:hover {
+                transform: translateY(-10px);
+            }
         }
         &__contacts {
             margin-bottom: 8px;
